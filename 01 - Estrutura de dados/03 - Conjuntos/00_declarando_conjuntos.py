@@ -1,8 +1,11 @@
-numeros = set([1, 2, 3, 1, 3, 4])
-print(numeros)  # {1, 2, 3, 4}
+numbers = set([1, 2, 3, 1, 3, 4])
+print(numbers)  # {1, 2, 3, 4}
 
-letras = set("abacaxi")
-print(letras)  # {"b", "a", "c", "x", "i"}
+letters = set("abacaxi")
+print(letters)  # {"b", "a", "c", "x", "i"}
 
-carros = set(("palio", "gol", "celta", "palio"))
-print(carros)  # {"gol", "celta", "palio"}
+cars = set(("palio", "gol", "celta", "palio"))
+print(cars)  # {"gol", "celta", "palio"}
+
+languages = {"python", "java", "javascript", "java"}
+print(languages)  # {'java', 'python', 'javascript'}

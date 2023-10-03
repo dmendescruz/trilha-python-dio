@@ -1,6 +1,6 @@
-linguagens = ["python", "js", "c", "java", "csharp"]
+languages = ["python", "js", "c", "java", "csharp"]
 
-print(linguagens.pop())  # csharp
-print(linguagens.pop())  # java
-print(linguagens.pop())  # c
-print(linguagens.pop(0))  # python
+print(languages.pop())  # csharp
+print(languages.pop())  # java
+print(languages.pop())  # c
+print(languages.pop(0))  # python

@@ -1,9 +1,9 @@
-frutas = (
+fruits = (
     "maçã",
     "laranja",
     "uva",
     "pera",
 )
 
-print(frutas[-1])  # pera
-print(frutas[-3])  # laranja
+print(fruits[-1])  # pera
+print(fruits[-3])  # laranja

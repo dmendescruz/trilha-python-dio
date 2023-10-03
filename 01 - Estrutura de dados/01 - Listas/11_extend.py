@@ -1,7 +1,7 @@
-linguagens = ["python", "js", "c"]
+languages = ["python", "js", "c"]
 
-print(linguagens)  # ["python", "js", "c"]
+print(languages)  # ["python", "js", "c"]
 
-linguagens.extend(["java", "csharp"])
+languages.extend(["java", "csharp"])
 
-print(linguagens)  # ["python", "js", "c", "java", "csharp"]
+print(languages)  # ["python", "js", "c", "java", "csharp"]

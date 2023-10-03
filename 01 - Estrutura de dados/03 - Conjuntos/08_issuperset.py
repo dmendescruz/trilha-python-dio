@@ -1,8 +1,8 @@
-conjunto_a = {1, 2, 3}
-conjunto_b = {4, 1, 2, 5, 6, 3}
+set_a = {1, 2, 3}
+set_b = {4, 1, 2, 5, 6, 3}
 
-resultado = conjunto_a.issuperset(conjunto_b)  # False
-print(resultado)
+result = set_a.issuperset(set_b)  # False
+print(result)
 
-resultado = conjunto_b.issuperset(conjunto_a)  # True
-print(resultado)
+result = set_b.issuperset(set_a)  # True
+print(result)

@@ -1,7 +1,7 @@
-lista = []
+list = []
 
-lista.append(1)
-lista.append("Python")
-lista.append([40, 30, 20])
+list.append(1)
+list.append("Python")
+list.append([40, 30, 20])
 
-print(lista)  # [1, "Python", [40, 30, 20]]
+print(list)  # [1, "Python", [40, 30, 20]]

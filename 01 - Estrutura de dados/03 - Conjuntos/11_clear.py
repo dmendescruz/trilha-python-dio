@@ -1,7 +1,7 @@
-sorteio = {1, 23}
+sort = {1, 23}
 
-print(sorteio)  # {1,23}
+print(sort)  # {1,23}
 
-sorteio.clear()
+sort.clear()
 
-print(sorteio)  # {}
+print(sort)  # {}

@@ -1,4 +1,4 @@
-frutas = ["maçã", "laranja", "uva", "pera"]
+fruits = ["maçã", "laranja", "uva", "pera"]
 
-print(frutas[0])  # maçã
-print(frutas[2])  # uva
+print(fruits[0])  # maçã
+print(fruits[2])  # uva

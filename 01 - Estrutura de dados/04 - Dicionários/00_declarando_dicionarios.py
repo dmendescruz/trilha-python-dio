@@ -1,8 +1,9 @@
-pessoa = {"nome": "Guilherme", "idade": 28}
-print(pessoa)
+person = {"nome": "Guilherme", "idade": 28}
+print(person)
 
-pessoa = dict(nome="Guilherme", idade=28)
-print(pessoa)
+person = dict(nome="Guilherme", idade=28)
+print(person)
 
-pessoa["telefone"] = "3333-1234"  # {"nome": "Guilherme", "idade": 28, "telefone": "3333-1234"}
-print(pessoa)
+# {"nome": "Guilherme", "idade": 28, "telefone": "3333-1234"}
+person["telefone"] = "3333-1234"
+print(person)

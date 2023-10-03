@@ -1,5 +1,5 @@
-numeros = {1, 2, 3, 2}
+numbers = {1, 2, 3, 2}
 
-numeros = list(numeros)
+numbers = list(numbers)
 
-print(numeros[0])
+print(numbers[0])

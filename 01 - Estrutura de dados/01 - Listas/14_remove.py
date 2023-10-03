@@ -1,5 +1,5 @@
-linguagens = ["python", "js", "c", "java", "csharp"]
+languages = ["python", "js", "c", "java", "csharp"]
 
-linguagens.remove("c")
+languages.remove("c")
 
-print(linguagens)  # ["python", "js", "java", "csharp"]
+print(languages)  # ["python", "js", "java", "csharp"]

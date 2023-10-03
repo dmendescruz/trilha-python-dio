@@ -1,8 +1,8 @@
-conjunto_a = {1, 2, 3}
-conjunto_b = {2, 3, 4}
+set_a = {1, 2, 3}
+set_b = {2, 3, 4}
 
-resultado = conjunto_a.difference(conjunto_b)
-print(resultado)
+result = set_a.difference(set_b)
+print(result)
 
-resultado = conjunto_b.difference(conjunto_a)
-print(resultado)
+result = set_b.difference(set_a)
+print(result)

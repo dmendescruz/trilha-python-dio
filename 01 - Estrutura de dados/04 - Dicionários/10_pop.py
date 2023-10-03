@@ -1,7 +1,8 @@
-contatos = {"guilherme@gmail.com": {"nome": "Guilherme", "telefone": "3333-2221"}}
+contacts = {"guilherme@gmail.com": {"nome": "Guilherme", "telefone": "3333-2221"}}
 
-resultado = contatos.pop("guilherme@gmail.com")  # {'nome': 'Guilherme', 'telefone': '3333-2221'}
-print(resultado)
+result = contacts.pop("guilherme@gmail.com")
+print(result)
+# {'nome': 'Guilherme', 'telefone': '3333-2221'}
 
-resultado = contatos.pop("guilherme@gmail.com", {})  # {}
-print(resultado)
+result = contacts.pop("guilherme@gmail.com", {})  # {}
+print(result)

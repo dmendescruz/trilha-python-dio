@@ -1,4 +1,4 @@
-linguagens = (
+languages = (
     "python",
     "js",
     "c",
@@ -6,4 +6,4 @@ linguagens = (
     "csharp",
 )
 
-print(len(linguagens))  # 5
+print(len(languages))  # 5

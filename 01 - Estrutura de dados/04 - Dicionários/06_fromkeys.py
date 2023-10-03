@@ -1,5 +1,7 @@
-resultado = dict.fromkeys(["nome", "telefone"])  # {"nome": None, "telefone": None}
-print(resultado)
+result = dict.fromkeys(["nome", "telefone"])
+print(result)
+# {"nome": None, "telefone": None}
 
-resultado = dict.fromkeys(["nome", "telefone"], "vazio")  # {"nome": "vazio", "telefone": "vazio"}
-print(resultado)
+result = dict.fromkeys(["nome", "telefone"], "vazio")
+print(result)
+# {"nome": "vazio", "telefone": "vazio"}

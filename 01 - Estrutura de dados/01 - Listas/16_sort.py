@@ -1,15 +1,16 @@
-linguagens = ["python", "js", "c", "java", "csharp"]
-linguagens.sort()  # ["c", "csharp", "java", "js", "python"]
-print(linguagens)
+languages = ["python", "js", "c", "java", "csharp"]
+languages.sort()  # ["c", "csharp", "java", "js", "python"]
+print(languages)
 
-linguagens = ["python", "js", "c", "java", "csharp"]
-linguagens.sort(reverse=True)  # ["python", "js", "java", "csharp", "c"]
-print(linguagens)
+languages = ["python", "js", "c", "java", "csharp"]
+languages.sort(reverse=True)  # ["python", "js", "java", "csharp", "c"]
+print(languages)
 
-linguagens = ["python", "js", "c", "java", "csharp"]
-linguagens.sort(key=lambda x: len(x))  # ["c", "js", "java", "python", "csharp"]
-print(linguagens)
+languages = ["python", "js", "c", "java", "csharp"]
+languages.sort(key=lambda x: len(x))  # ["c", "js", "java", "python", "csharp"]
+print(languages)
 
-linguagens = ["python", "js", "c", "java", "csharp"]
-linguagens.sort(key=lambda x: len(x), reverse=True)  # ["python", "csharp", "java", "js", "c"]
-print(linguagens)
+# ["python", "csharp", "java", "js", "c"]
+languages = ["python", "js", "c", "java", "csharp"]
+languages.sort(key=lambda x: len(x), reverse=True)
+print(languages)

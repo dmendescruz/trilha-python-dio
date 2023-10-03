@@ -1,18 +1,18 @@
-contatos = {
+contacts = {
     "guilherme@gmail.com": {"nome": "Guilherme", "telefone": "3333-2221"},
     "giovanna@gmail.com": {"nome": "Giovanna", "telefone": "3443-2121"},
     "chappie@gmail.com": {"nome": "Chappie", "telefone": "3344-9871"},
     "melaine@gmail.com": {"nome": "Melaine", "telefone": "3333-7766"},
 }
 
-resultado = "guilherme@gmail.com" in contatos  # True
-print(resultado)
+result = "guilherme@gmail.com" in contacts  # True
+print(result)
 
-resultado = "megui@gmail.com" in contatos  # False
-print(resultado)
+result = "megui@gmail.com" in contacts  # False
+print(result)
 
-resultado = "idade" in contatos["guilherme@gmail.com"]  # False
-print(resultado)
+result = "idade" in contacts["guilherme@gmail.com"]  # False
+print(result)
 
-resultado = "telefone" in contatos["giovanna@gmail.com"]  # True
-print(resultado)
+result = "telefone" in contacts["giovanna@gmail.com"]  # True
+print(result)

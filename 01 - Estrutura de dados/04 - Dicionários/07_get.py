@@ -1,14 +1,14 @@
-contatos = {"guilherme@gmail.com": {"nome": "Guilherme", "telefone": "3333-2221"}}
+contacts = {"guilherme@gmail.com": {"nome": "Guilherme", "telefone": "3333-2221"}}
 
-# contatos["chave"]  # KeyError
+# contacts["chave"]  # KeyError
 
-resultado = contatos.get("chave")  # None
-print(resultado)
+result = contacts.get("chave")  # None
+print(result)
 
-resultado = contatos.get("chave", {})  # {}
-print(resultado)
+result = contacts.get("chave", {})  # {}
+print(result)
 
-resultado = contatos.get(
+result = contacts.get(
     "guilherme@gmail.com", {}
 )  # {"guilherme@gmail.com": {"nome": "Guilherme", "telefone": "3333-2221"}
-print(resultado)
+print(result)

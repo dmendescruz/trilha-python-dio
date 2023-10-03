@@ -1,5 +1,5 @@
-conjunto_a = {1, 2}
-conjunto_b = {3, 4}
+set_a = {1, 2}
+set_b = {3, 4}
 
-resultado = conjunto_a.union(conjunto_b)
-print(resultado)
+result = set_a.union(set_b)
+print(result)

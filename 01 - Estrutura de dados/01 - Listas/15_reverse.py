@@ -1,5 +1,5 @@
-linguagens = ["python", "js", "c", "java", "csharp"]
+languages = ["python", "js", "c", "java", "csharp"]
 
-linguagens.reverse()
+languages.reverse()
 
-print(linguagens)  # ["csharp", "java", "c", "js", "python"]
+print(languages)  # ["csharp", "java", "c", "js", "python"]

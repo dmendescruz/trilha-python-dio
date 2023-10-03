@@ -1,15 +1,15 @@
-frutas = (
+fruits = (
     "laranja",
     "pera",
     "uva",
 )
-print(frutas)
+print(fruits)
 
-letras = tuple("python")
-print(letras)
+letters = tuple("python")
+print(letters)
 
-numeros = tuple([1, 2, 3, 4])
-print(numeros)
+numbers = tuple([1, 2, 3, 4])
+print(numbers)
 
-pais = ("Brasil",)
-print(pais)
+country = ("Brasil",)
+print(country)

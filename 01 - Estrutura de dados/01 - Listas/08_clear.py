@@ -1,7 +1,7 @@
-lista = [1, "Python", [40, 30, 20]]
+list = [1, "Python", [40, 30, 20]]
 
-print(lista)  # [1, "Python", [40, 30, 20]]
+print(list)  # [1, "Python", [40, 30, 20]]
 
-lista.clear()
+list.clear()
 
-print(lista)  # []
+print(list)  # []

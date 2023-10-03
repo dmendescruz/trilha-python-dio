@@ -1,14 +1,14 @@
-frutas = ["laranja", "maca", "uva"]
-print(frutas)
+fruits = ["laranja", "maca", "uva"]
+print(fruits)
 
-frutas = []
-print(frutas)
+fruits = []
+print(fruits)
 
-letras = list("python")
-print(letras)
+letters = list("python")
+print(letters)
 
-numeros = list(range(10))
-print(numeros)
+numbers = list(range(10))
+print(numbers)
 
-carro = ["Ferrari", "F8", 4200000, 2020, 2900, "São Paulo", True]
-print(carro)
+cars = ["Ferrari", "F8", 4200000, 2020, 2900, "São Paulo", True]
+print(cars)

@@ -1,4 +1,6 @@
-linguagens = ["python", "js", "c", "java", "csharp"]
+languages = ["python", "js", "c", "java", "csharp"]
 
-print(sorted(linguagens, key=lambda x: len(x)))  # ["c", "js", "java", "python", "csharp"]
-print(sorted(linguagens, key=lambda x: len(x), reverse=True))  # ["python", "csharp", "java", "js", "c"]
+# ["c", "js", "java", "python", "csharp"]
+print(sorted(languages, key=lambda x: len(x)))
+# ["python", "csharp", "java", "js", "c"]
+print(sorted(languages, key=lambda x: len(x), reverse=True))

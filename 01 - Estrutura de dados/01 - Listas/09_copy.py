@@ -1,5 +1,7 @@
-lista = [1, "Python", [40, 30, 20]]
+list = [1, "Python", [40, 30, 20]]
 
-lista.copy()
+second_list = list.copy()
 
-print(lista)  # [1, "Python", [40, 30, 20]]
+print(id(list))  # [1, "Python", [40, 30, 20]]
+
+print(id(second_list))
